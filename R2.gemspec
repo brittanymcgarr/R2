@@ -5,20 +5,20 @@ require_relative "lib/R2/version"
 Gem::Specification.new do |spec|
   spec.name = "R2"
   spec.version = R2::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.authors = ["Brit McGarr"]
+  spec.email = ["bmcgarr@forcebrands.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "ForceBrands' friendly can-do command line."
+  spec.description = "Update the local db from the mirrored data, check AWS credentials, and fly your X-Wing...Okay, not ALL of those things."
+  spec.homepage = "https://github.com/brittanymcgarr/R2"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/brittanymcgarr/R2"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/brittanymcgarr/R2/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
