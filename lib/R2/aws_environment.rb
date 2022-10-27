@@ -1,3 +1,4 @@
+require 'active_support/inflector'
 
 DEFAULT_AWS_REGION = "us-east-1"
 

@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'R2/cli'
+R2::CLI.start

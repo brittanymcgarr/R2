@@ -1,11 +1,13 @@
 require 'thor'
 require 'R2'
 
-class CLI < Thor
+module R2
+  class CLI < Thor
 
-  desc "configure AWS_ENV", "Determines the current set of AWS environment variables"
-  def configure_aws
-    puts R2::R2.configure_aws
+    desc "configure AWS_ENV", "Determines the current set of AWS environment variables"
+    def configure_aws
+      puts R2::R2.configure_aws
+    end
+
   end
-
 end
