@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir.glob("{lib,bin}/**/*")
   spec.bindir = "bin"
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+  spec.executables = ["R2"]
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
