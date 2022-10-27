@@ -1,0 +1,2 @@
+require 'R2/cli'
+R2::CLI.configure_aws
